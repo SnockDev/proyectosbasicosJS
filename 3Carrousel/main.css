@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 236, 255);
+
+}
+
+button{
+    border: 0px;
+    cursor: pointer;
+    background-color: #fff ;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(236, 236, 255);
+}
+h1{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+#profession{
+    color: dodgerblue;
+}
+#review{
+    background-color: #fff;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#review > *{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.divimg img{
+   height: 200px !important;
+}
